@@ -1,0 +1,88 @@
+{
+  "version": 2,
+  "settings": {
+	"color": {
+	  "palette": [
+		{
+		  "slug": "foreground",
+		  "color": "rgb(17, 24, 39)",
+		  "name": "Foreground"
+		},
+		{
+		  "slug": "background",
+		  "color": "rgb(243, 244, 246)",
+		  "name": "Background"
+		},
+		{
+		  "slug": "primary",
+		  "color": "rgb(178, 94, 128)",
+		  "name": "Primary"
+		},
+		{
+		  "slug": "secondary",
+		  "color": "#ffe2c7",
+		  "name": "Secondary"
+		},
+		{
+		  "slug": "tertiary",
+		  "color": "#F6F6F6",
+		  "name": "Tertiary"
+		}
+	  ]
+	}
+  },
+  "styles": {
+	"blocks": {
+	  "core/post-title": {
+		"typography": {
+		  "fontFamily": "serif"
+		}
+	  },
+	  "core/query-title": {
+		"typography": {
+		  "fontFamily": "serif"
+		}
+	  },
+	  "core/site-title": {
+		"typography": {
+		  "fontFamily": "serif"
+		}
+	  }
+	},
+	"elements": {
+	  "h1": {
+		"typography": {
+		  "fontFamily": "serif"
+		}
+	  },
+	  "h2": {
+		"typography": {
+		  "fontFamily": "serif"
+		}
+	  },
+	  "h3": {
+		"typography": {
+		  "fontFamily": "serif"
+		}
+	  },
+	  "h4": {
+		"typography": {
+		  "fontFamily": "serif"
+		}
+	  },
+	  "h5": {
+		"typography": {
+		  "fontFamily": "serif"
+		}
+	  },
+	  "h6": {
+		"typography": {
+		  "fontFamily": "serif"
+		}
+	  }
+	},
+	"typography": {
+	  "fontFamily": "serif"
+	}
+  }
+}
