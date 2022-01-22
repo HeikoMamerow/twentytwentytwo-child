@@ -1,0 +1,84 @@
+/*
+Theme Name: Twenty Twenty-Two Child
+Theme URI: https://github.com/wordpress/twentytwentytwo/
+Author: Heiko Mamerow
+Author URI: https://heikomamerow.dev/
+Description: Child theme for Twenty Twenty-Two.
+Requires at least: 5.8
+Tested up to: 5.9
+Requires PHP: 5.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentytwo-child
+Template: twentytwentytwo
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
+
+Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
+Twenty Twenty-Two is distributed under the terms of the GNU GPL.
+*/
+
+html {
+	font-size: 20px;
+}
+
+.wp-block-image.hm-logo {
+	margin: 0;
+}
+
+.wp-block-site-logo.is-default-size img.custom-logo {
+	width: 64px;
+}
+
+.wp-block-columns.is-not-stacked-on-mobile > .wp-block-column:not(:first-child) {
+	margin-left: 20px;
+}
+
+@media (max-width: 599px) {
+	.hm-site-logo {
+		display: none;
+	}
+
+	.wp-block-columns.is-not-stacked-on-mobile > .wp-block-column:not(:first-child) {
+		margin-left: 0;
+	}
+
+	.wp-block-columns.is-not-stacked-on-mobile > .wp-block-column:not(:first-child) h1 {
+		font-size: 130% !important;
+	}
+
+	.wp-block-columns.is-not-stacked-on-mobile > .wp-block-column:not(:first-child) p {
+		font-size: 70%;
+		letter-spacing: 0.08rem !important;
+	}
+}
+
+@keyframes heartbeat {
+	0% {
+		transform: scale(1);
+	}
+	40% {
+		transform: scale(1.2);
+	}
+	50% {
+		transform: scale(1.5);
+	}
+	60% {
+		transform: scale(1.2);
+	}
+	70% {
+		transform: scale(1.5);
+	}
+	80% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.heartbeat {
+	animation: heartbeat 2.5s ease 0s infinite;
+	display: inline-block;
+	margin-left: .03rem;
+}
