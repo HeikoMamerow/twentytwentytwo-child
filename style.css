@@ -20,6 +20,7 @@ Twenty Twenty-Two is distributed under the terms of the GNU GPL.
 
 html {
 	font-size: 20px;
+	scroll-behavior: smooth;
 }
 
 .wp-block-image.hm-logo {
