@@ -83,3 +83,19 @@ html {
 	display: inline-block;
 	margin-left: .03rem;
 }
+
+/* .comment-form */
+.comment-form input:not(.submit),
+.comment-form textarea {
+	box-sizing: border-box;
+	display: block;
+	font-size: large;
+	padding: 1rem;
+	width: 100%;
+}
+
+@media (min-width: 600px) {
+	.comment-form input:not(.submit) {
+		width: 50%;
+	}
+}
