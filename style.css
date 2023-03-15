@@ -93,9 +93,3 @@ html {
 	padding: 1rem;
 	width: 100%;
 }
-
-@media (min-width: 600px) {
-	.comment-form input:not(.submit) {
-		width: 50%;
-	}
-}
